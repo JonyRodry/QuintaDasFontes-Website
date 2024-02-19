@@ -1,0 +1,44 @@
+.comodidades-text-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    min-height: 250px;
+    background-color: #f3f0ef;
+}
+
+.comodidades-lista{
+    margin-top: 2%;
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: "Work Sans",sans-serif;
+    text-align: justify;
+    margin-bottom: 2%
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    margin-bottom: 25px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .comodidades-lista{
+        font-size: 1.4vh;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+
+    .div-img{
+        height: 250px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

@@ -1,0 +1,43 @@
+#inicial-text{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    text-align: justify;
+}
+
+#inicial-text-btn-row{
+    display: flex;
+    justify-content: center;
+}
+
+.inicial-text-href{
+    width: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.inicial-text-btn-more{
+    color: black;
+    background-color: transparent;
+    border-radius: 80px;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px solid black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+}
+
+.inicial-text-btn-more:hover{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 1080px) {
+    .inicial-text{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}    

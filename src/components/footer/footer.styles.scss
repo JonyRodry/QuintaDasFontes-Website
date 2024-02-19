@@ -1,0 +1,133 @@
+.footer{
+    background-color: #F7F7F7;
+    padding: 2% 5% 2% 5%;
+    height: auto;
+}
+
+.footer-desktop-copyright{
+    margin-top: 30px;
+}
+
+.footer-desktop-logo{
+    padding-left: 0px !important;
+}
+
+.footer-social-icons{
+    margin-top: 15px;
+    column-gap: 10px;
+}
+
+.footer-icons-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list-title{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size:calc(10px + 0.4vw);
+}
+
+.footer-list-text{
+    font-family: "Work Sans",sans-serif;
+    color: #2d2d2d;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 0px !important;
+}
+
+.footer-list-link{
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+.footer-list-link:hover{
+    color: green;
+}
+
+#footer-mobile{
+    display: none;
+    background-color: #2d2d2d;
+}
+
+#footer-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.footer-text{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#footer-img-col-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footer-img-col-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#a-img-links{
+    display: flex;
+    justify-content: center;
+}
+
+.logoBiosphere{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.semPadd{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.semPaddLeft{
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 780px) {
+    .footer-text{
+        font-size: 14px;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    #footer-mobile{
+        display: flex;
+    }
+
+    .logo-social{
+        display: flex;
+    }
+
+    #footer-img-col-1{
+        justify-content: center;
+    }
+
+    .footer-contactos{
+        margin-top: 20px;
+    }
+
+    .footer-list-title{
+        font-size:calc(10px + 0.7vw);
+    }
+    
+    .footer-social-icons{
+        display: flex;
+        justify-content: center;
+    }
+}
