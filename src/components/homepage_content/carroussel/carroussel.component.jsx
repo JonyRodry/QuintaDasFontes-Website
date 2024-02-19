@@ -1,59 +1,37 @@
-import React, { useEffect, useState } from "react";
-import {useNavigate} from 'react-router-dom';
-import {sliderImage} from "./images-caroussel.js"
+import React, { useState } from "react";
+import Carousel from 'react-spring-3d-carousel';
+import { config } from "react-spring";
 
 import "./carroussel.styles.scss";
 
-const len = sliderImage.length - 1;
+function CarouselEventos(props){
 
-function Carrousel() {
+  const [goToSlide, setGoToSlide] = useState(0);
 
-  const navigate = useNavigate();
-  const [activeIndex, setActiveIndex] = useState(0);
+  let slidesIn = props.slides.map((slide, index) => {
+    return { ...slide, onClick: () => setGoToSlide(index)};
+  });
 
-  const goToAboutUs = () => {
-    navigate('/sobre-nos');
-  }
+  return(
+    <div style={{ width: "80%", height: "500px", margin: "0 auto 100px auto" }}>
+      <Carousel
+        slides={slidesIn}
+        goToSlide={goToSlide}
+        offsetRadius={3}
+        showNavigation={true}
+        animationConfig={config.slow}
+      />
+      <div
+        style={{
+          margin: "0 auto",
+          marginTop: "2rem",
+          width: "50%",
+          display: "flex",
+          justifyContent: "space-around"
+        }}
+      ></div>
+    </div>
+  );
+} 
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [activeIndex]);
-
-  return (
-    <>
-      <section className="slide-container">
-
-        <div className="over-opacity">
-          <p>
-            <h2 className="slide-text-title">Quinta das Fontes</h2>
-          </p>
-          <p>
-            <h4 className="slide-text-subtitle">Sejam Bem-vindos!</h4>
-          </p>
-          <p className="slide-text-description">
-            Agende uma visita e venha conhecer de perto os encantos deste 
-            espaço ideal para repousar, eventos familiares ou empresariais,
-            entre outro tipo de eventos.
-          </p>
-          <button className="slide-btn-more" onClick={goToAboutUs}>
-            SABER MAIS
-          </button>
-        </div>
-
-        {sliderImage.map((slide, index) => (
-          <div
-            key={index}
-            className={index === activeIndex ? "slides active" : "inactive"}
-          >
-            <img className="slide-image" src={slide.urls} alt="" />
-          </div>
-        ))}
-      </section>
-    </>
-    );
-}
-
-export default Carrousel;
+export default CarouselEventos;

@@ -13,4 +13,7 @@ export function cssAnimations(){
 
     const elementsLR = document.querySelectorAll('.hiddenLeftRight');
     elementsLR.forEach((element) => myObserver.observe(element));
+    
+    const elementsRL = document.querySelectorAll('.hiddenRightLeft');
+    elementsRL.forEach((element) => myObserver.observe(element));
 }

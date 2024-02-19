@@ -22,6 +22,13 @@ div.col {
   transition: all 1s;
 }
 
+.hiddenRightLeft{
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
 .show{
   opacity: 1;
   filter: blur(0px);
