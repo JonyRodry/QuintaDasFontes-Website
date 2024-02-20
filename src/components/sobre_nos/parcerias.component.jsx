@@ -12,7 +12,7 @@ import p8 from "../../assets/parceiros/patrocinador_8.png"
 import p9 from "../../assets/parceiros/patrocinador_9.png"
 import p10 from "../../assets/parceiros/patrocinador_10.png"
 
-import "./parcerias.styles.scss";
+import "./parcerias.styles.css";
 
 function Parcerias() {
 

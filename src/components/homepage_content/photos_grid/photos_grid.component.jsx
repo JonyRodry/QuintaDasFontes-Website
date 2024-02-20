@@ -5,7 +5,7 @@ import g1 from "../../../assets/quinta_das_fontes-01.jpg";
 import g2 from "../../../assets/grid4.jpg";
 import g3 from "../../../assets/slideHome_4.jpg";
 
-import "./photos_grid.styles.scss";
+import "./photos_grid.styles.css";
 import {cssAnimations} from '../../../scripts.js';
 
 function PhotosGrid() {

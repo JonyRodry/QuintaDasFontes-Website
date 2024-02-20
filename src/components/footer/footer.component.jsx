@@ -8,7 +8,7 @@ import booking from "../../assets/icon-booking.svg";
 import airbnb from "../../assets/icon-airbnb.png";
 import logoBiosphere from "../../assets/logo-biosphere.png"
 
-import "./footer.styles.scss";
+import "./footer.styles.css";
 
 const Footer = () => {
 

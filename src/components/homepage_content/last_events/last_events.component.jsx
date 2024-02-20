@@ -4,7 +4,7 @@ import { Row } from "react-bootstrap";
 import CarouselEventos from "./../carroussel/carroussel.component.jsx"
 import {slidesCasamentos, slidesOutros} from "./../carroussel/images-caroussel.js"
 
-import "./last_events.styles.scss";
+import "./last_events.styles.css";
 
 function LastEvents() {
 

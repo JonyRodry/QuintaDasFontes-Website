@@ -2,7 +2,7 @@ import React from "react";
 
 import video from "../../../assets/qf_video2.mp4";
 
-import "./video.styles.scss";
+import "./video.styles.css";
 
 function VideoHome() {
 

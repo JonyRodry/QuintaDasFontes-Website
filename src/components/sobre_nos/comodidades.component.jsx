@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 import ph1 from "../../assets/quinta_das_fontes-025.jpg"
 
-import "./comodidades.styles.scss";
+import "./comodidades.styles.css";
 
 function Comodidades() {
 

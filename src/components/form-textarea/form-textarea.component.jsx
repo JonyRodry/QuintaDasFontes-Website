@@ -1,4 +1,4 @@
-import './form-textarea.styles.scss';
+import './form-textarea.styles.css';
 
 const FormTextArea  = ({ label, ...otherProps }) => {
   return (

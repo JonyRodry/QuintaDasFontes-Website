@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 
-import "./inicial-text.styles.scss"
+import "./inicial-text.styles.css"
 import {cssAnimations} from '../../../scripts.js';
 
 function InicialText() {

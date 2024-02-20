@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 import FormInput from "../form-input/form-input.component";
 import FormTextArea from "../form-textarea/form-textarea.component";
 
-import "./contactos.styles.scss";
+import "./contactos.styles.css";
 
 function Contactos() {
 

@@ -8,7 +8,7 @@ import ph2 from "../../assets/gatos1.jpeg";
 import ph3 from "../../assets/gatos2.jpeg";
 import ph4 from "../../assets/burro.jpeg";
 
-import "./sustentabilidade.styles.scss";
+import "./sustentabilidade.styles.css";
 
 function Sustentabilidade() {
 

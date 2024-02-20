@@ -7,7 +7,7 @@ import email from '../../assets/icon-email.png';
 
 import MapsForm from "./boxSendEmailMaps.component"
 
-import "./contactos.styles.scss";
+import "./contactos.styles.css";
 
 function Contactos() {
   

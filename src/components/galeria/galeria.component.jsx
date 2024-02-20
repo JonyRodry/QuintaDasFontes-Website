@@ -21,7 +21,7 @@ import p13 from "../../assets/quinta_das_fontes-229.jpg"
 import p14 from "../../assets/quinta_das_fontes-230.jpg"
 import p15 from "../../assets/quinta_das_fontes-231.jpg"
 
-import "./galeria.styles.scss";
+import "./galeria.styles.css";
 
 function Galeria() {
 

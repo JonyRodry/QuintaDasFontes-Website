@@ -6,7 +6,7 @@ import ph2 from "../../assets/lagaresMouros.png";
 import ph3 from "../../assets/capelaColmeias.png";
 import ph4 from "../../assets/baloiçoNespereira.png";
 
-import "./lazer.styles.scss";
+import "./lazer.styles.css";
 
 function CulturaVM() {
 

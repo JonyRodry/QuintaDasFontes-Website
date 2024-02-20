@@ -15,7 +15,7 @@ import ph10 from "../../assets/quinta_das_fontes-230.jpg";
 import ph11 from "../../assets/quinta_das_fontes-231.jpg";
 import ph12 from "../../assets/quinta_das_fontes-215.jpg";
 
-import "./sobre-nos.styles.scss";
+import "./sobre-nos.styles.css";
 
 function SobreNosHistory() {
 

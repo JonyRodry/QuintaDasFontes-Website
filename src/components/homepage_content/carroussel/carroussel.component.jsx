@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Carousel from 'react-spring-3d-carousel';
 import { config } from "react-spring";
 
-import "./carroussel.styles.scss";
+import "./carroussel.styles.css";
 
 function CarouselEventos(props){
 

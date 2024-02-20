@@ -3,7 +3,7 @@ import PhotosGrid from "../../components/homepage_content/photos_grid/photos_gri
 import VideoHome from "../../components/homepage_content/video/video.component";
 import MapsForm from "../../components/contactos/boxSendEmailMaps.component"
 
-import "./home.styles.scss";
+import "./home.styles.css";
 import LastEvents from "../../components/homepage_content/last_events/last_events.component";
 
 function Home() {

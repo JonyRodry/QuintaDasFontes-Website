@@ -10,7 +10,7 @@ import iconMenu from "../../assets/icon-menu-white.svg";
 import iconMenuBlack from "../../assets/icon-menu-black.svg";
 import arrowR from "../../assets/icon-right.png";
 
-import "./header.styles.scss"
+import "./header.styles.css"
 
 const Header = () => {
 

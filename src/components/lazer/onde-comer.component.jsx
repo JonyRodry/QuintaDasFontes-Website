@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 
-import "./lazer.styles.scss";
+import "./lazer.styles.css";
 
 function OndeComer() {
 

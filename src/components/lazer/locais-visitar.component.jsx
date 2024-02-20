@@ -10,7 +10,7 @@ import ph4 from "../../assets/parqueCidade.jpg";
 import ph5 from '../../assets/tipo3.jpg'
 import ph6 from '../../assets/baloiçoArada.jpg'
 
-import "./lazer.styles.scss";
+import "./lazer.styles.css";
 
 function LocaisVisitar() {
 
