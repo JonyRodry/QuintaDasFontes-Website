@@ -13,7 +13,7 @@ function PhotosGrid() {
     window.addEventListener("scroll", cssAnimations);
 
     return (
-        <div className="hiddenLeftRight" id="photos-grid-div">
+        <div className="hiddenBottomTop" id="photos-grid-div">
             <Row className="photos-grid-row">
                 <Col className="photos-grid-col">
                     <img
