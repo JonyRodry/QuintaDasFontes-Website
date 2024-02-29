@@ -12,7 +12,7 @@ function InicialText() {
         <>
             <Row className="hiddenBottomTop" id="inicial-text">
                 <p>
-                Em S. Pedro do Sul podemos encontrar a Quinta das Fontes, 
+                Em S. Pedro do Sul pode encontrar a Quinta das Fontes, 
                 um alojamento inserido numa deslumbrante área que conjuga uma 
                 casa rústica e vários espaços exteriores numa área de 130.000m2. 
                 Com todas as comodidades para albergar uma família ou grupos, em 

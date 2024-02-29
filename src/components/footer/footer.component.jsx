@@ -84,18 +84,18 @@ const Footer = () => {
             </a>
           </Row>
           <Row className="footer-list-title">
-            <a href="/" className="footer-list-link">
-              SERVIÇOS
-            </a>
-          </Row>
-          <Row className="footer-list-title">
-            <a href="/" className="footer-list-link">
+            <a href="/contactos" className="footer-list-link">
               CONTACTOS
             </a>
           </Row>
           <Row className="footer-list-title">
-            <a href="/" className="footer-list-link">
+            <a href="/galeria" className="footer-list-link">
               GALERIA
+            </a>
+          </Row>
+          <Row className="footer-list-title">
+            <a href="/lazer-experiencias" className="footer-list-link">
+              LAZER & EXPERIÊNCIAS
             </a>
           </Row>
         </Col>
@@ -116,12 +116,12 @@ const Footer = () => {
             </a>
           </Row>
           <Row className="footer-list-title">
-            <a href="/" className="footer-list-link">
+            <a href="/privacy-policy" className="footer-list-link">
               POLÍTICA DE PRIVACIDADE
             </a>
           </Row>
           <Row className="footer-list-title">
-            <a href="/" className="footer-list-link">
+            <a href="/cookies-policy" className="footer-list-link">
               POLÍTICA DE COOKIES
             </a>
           </Row>
@@ -132,9 +132,9 @@ const Footer = () => {
       </Row>
 
       <Row className="footer-desktop-copyright">
-        <Col className="footer-list-text" onClick={() => window.open("https://www.linkedin.com/in/joaommrodrigues99/", "_blank")}>
-          Copyright © 2023, Quinta das Fontes - Turismo, developed by João Rodrigues
-        </Col>
+        <div className="footer-list-text" style={{cursor: "pointer", width: "auto"}} onClick={() => window.open("https://www.linkedin.com/in/joaommrodrigues99/", "_blank")}>
+          Copyright © 2024, Quinta das Fontes - Turismo, developed by João Rodrigues
+        </div>
       </Row>
     </div>
   );

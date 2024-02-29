@@ -1,9 +1,15 @@
-export const slidesCasamentos = [
+import Card from "./carouselCard.component.jsx";
+
+export const slidesEventosHome = [
   {
-    content: <img src="https://i.ibb.co/NrLB0P2/le-2.jpg" alt="le-2" border="0" />
+    content: (
+      <Card imagen="https://i.ibb.co/NrLB0P2/le-2.jpg" legenda="Casamento" />
+    )
   },
   {
-    content: <img src="https://i.ibb.co/6wrnD85/le-1.jpg" alt="le-1" border="0" />
+    content: (
+      <Card imagen="https://i.ibb.co/6wrnD85/le-1.jpg" legenda="Casamento" />
+    )
   },
   {
     content: <img src="https://i.ibb.co/bvtnFzj/le-3.jpg" alt="le-3" border="0" />
@@ -18,9 +24,6 @@ export const slidesCasamentos = [
   {
   content: <img src="https://i.ibb.co/93Bcwhm/le-10.jpg" alt="le-10" border="0" />
   },
-]
-
-export const slidesOutros = [
   {
     content: <img src="https://i.ibb.co/xhCxTQw/le-5.jpg" alt="le-5" border="0" />
   },

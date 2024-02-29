@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Carousel from 'react-spring-3d-carousel';
 import { config } from "react-spring";
 
-import "./carroussel.styles.css";
+import "./carroussel.styles.scss";
 
 function CarouselEventos(props){
 
@@ -13,7 +13,7 @@ function CarouselEventos(props){
   });
 
   return(
-    <div style={{ width: "80%", height: "500px", margin: "0 auto 100px auto" }}>
+    <div style={{ width: "80%", height: "450px", margin: "0 auto 100px auto" }}>
       <Carousel
         slides={slidesIn}
         goToSlide={goToSlide}

@@ -37,7 +37,7 @@ function Contactos() {
                     </Col>
                     <Col md='10' xs='10'>
                         <text className="history-title" id="contactos-text">
-                            932 452 712
+                            (+351) 918 643 461 | (+351) 927 436 553
                         </text>
                     </Col>
                 </Row>
@@ -46,8 +46,8 @@ function Contactos() {
                         <img
                             id="logo-lk"
                             src={email}
-                            width="40px"
-                            height="40px"
+                            width="35px"
+                            height="35px"
                             alt="logo-lk"
                         />
                     </Col>
